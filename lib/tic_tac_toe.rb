@@ -126,13 +126,13 @@ def play(board)
     play(board)
   elsif winner(board) == "X"
     puts "Congratulations X!"
-    play_again?(board)
+    #play_again?(board)
   elsif winner(board) == "O"
     puts "Congratulations O!"
-    play_again?(board)
+    #play_again?(board)
   elsif draw?(board)
     puts "Cat's Game!"
-    play_again?(board)
+    #play_again?(board)
   end
 end
 
